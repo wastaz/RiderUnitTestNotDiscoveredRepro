@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <!-- 
+    Uncomment these lines, and suddenly Rider finds the unit tests!
+    However these lines shouldnt be required, `dotnet test` will always find all tests no matter what.
+  -->
+  <!--
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="NUnit" />
+    <PackageReference Include="NUnit3TestAdapter" />
+  </ItemGroup>
+  -->
+  <Import Project="..\.paket\Paket.Restore.targets" />
+</Project>

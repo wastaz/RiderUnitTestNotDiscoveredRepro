@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiderUnitTestNotDiscoveredRepro", "RiderUnitTestNotDiscoveredRepro/RiderUnitTestNotDiscoveredRepro.csproj", "{12404946-091E-42C8-BDE0-637DC3870AA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{C7C83644-0329-4F7D-8AD9-D2808F751444}"
+ProjectSection(SolutionItems) = preProject
+	paket.dependencies = paket.dependencies
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12404946-091E-42C8-BDE0-637DC3870AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12404946-091E-42C8-BDE0-637DC3870AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12404946-091E-42C8-BDE0-637DC3870AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12404946-091E-42C8-BDE0-637DC3870AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
